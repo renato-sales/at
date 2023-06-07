@@ -1,0 +1,59 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, gray, white,gray);
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.img-marco{
+    width: 80%;
+    height: 600px;
+    align-items: center;
+    border-radius: 10px;
+    transition: 3s;
+}
+.img-marco:hover{
+    width: 90%;
+}
+#ponto-turistico{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#ponto-turistico p{
+    padding: 10px;
+    text-align: justify;
+}
+#lugares-proximos{
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.titulo-lug-prox{
+    text-align: center;
+}
+h3{
+    padding-left: 10%;
+}
+.img-section-lugares-proximos{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    transition: 3s;
+}
+.img-section-lugares-proximos:hover{
+    width: 45%;
+}
+.paragrafo-section-lugares-proximos{
+    padding-right: 30px;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
